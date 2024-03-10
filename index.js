@@ -1,9 +1,10 @@
-// ==UserScript==
-// @name         Oturum Açma
+/// ==UserScript==
+// @name         Ons
+// @author       llEmre
+// @run-at       document-start
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      1.0
 // @description  Web sitesine otomatik oturum açma
-// @author       You
 // @match        https://www.wolvesville.com/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=wolvesville.com
 // @grant        none
