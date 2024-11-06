@@ -1,10 +1,10 @@
-/// ==UserScript==
+e/// ==UserScript==
 // @name         Ons
-// @author       llEmre
+// @author       EmreBoy
 // @run-at       document-start
 // @namespace    http://tampermonkey.net/
 // @version      1.0
-// @description  Web sitesine otomatik oturum açma
+// @description  Firebase ile oturum açma
 // @match        https://www.wolvesville.com/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=wolvesville.com
 // @grant        none
@@ -25,10 +25,10 @@
     function createLoginButton() {
         // "Giriş Yap" düğmesini özelleştirilmiş stil ile oluşturun
         var loginButton = document.createElement("button");
-        loginButton.innerText = "Giriş Yap";
+        loginButton.innerText = "FirebaseGiris";
         loginButton.style.position = "fixed";
-        loginButton.style.top = "10px";
-        loginButton.style.right = "10px";
+        loginButton.style.bottom = "10px";
+        loginButton.style.right = "150px";
         loginButton.style.backgroundColor = "#0074d9";
         loginButton.style.color = "#fff";
         loginButton.style.padding = "10px 20px";
